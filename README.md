@@ -4,7 +4,7 @@
 
 ## 如何开发
 
-1. 首先拉取本仓库代码，安装相关依赖，这里推荐使用 `pnpm` 安装依赖
+1. 安装相关依赖库，这里推荐使用 `pnpm` 安装依赖
 2. 修改 `package.json` 中的 `name` 和 `mp.config.js` 中的 `projectConfig` 和 `packageConfig`
 3. 执行打包命令 `npm run dev`，生成小程序代码
 4. 使用开发者工具打开 dist/mp 目录即可。
