@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "rimraf dist/mp/common && cross-env NODE_ENV=development webpack --progress",
+    "dev": "rimraf dist/mp/common && cross-env NODE_ENV=production webpack --progress --watch",
     "build": "rimraf dist/mp/common && cross-env NODE_ENV=production webpack --progress"
   },
   "author": "",
