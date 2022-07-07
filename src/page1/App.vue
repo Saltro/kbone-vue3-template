@@ -1,10 +1,9 @@
 <template>
   <div class="cnt">
     <Header></Header>
-    <a href="/b">当前页跳转</a>
-    <a href="/c" target="_blank">新开页面跳转</a>
-    <button @click="onClickJump">当前页跳转</button>
-    <button @click="onClickOpen">新开页面跳转</button>
+    <a href="/b">a标签当前页跳转</a>
+    <a href="/b" target="_blank">a标签新开页面跳转</a>
+    <button @click="onClickJump">修改location.href当前页跳转</button>
     <canvas
       ref="canvasRef"
       type="2d"
