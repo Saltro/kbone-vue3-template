@@ -5,13 +5,13 @@
 </template>
 
 <script>
-  export default {};
+export default {};
 </script>
 
 <style>
-  .header {
-    margin-bottom: 10px;
-    width: 100%;
-    text-align: center;
-  }
+.header {
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
 </style>

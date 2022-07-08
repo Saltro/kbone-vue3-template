@@ -5,13 +5,13 @@
 </template>
 
 <script>
-  export default {};
+export default {};
 </script>
 
 <style>
-  .footer {
-    margin-top: 10px;
-    width: 100%;
-    text-align: center;
-  }
+.footer {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
 </style>
