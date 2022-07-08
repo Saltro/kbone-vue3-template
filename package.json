@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "rimraf dist/mp/common && cross-env NODE_ENV=production webpack --progress --watch",
-    "build": "rimraf dist/mp/common && cross-env NODE_ENV=production webpack --progress"
+    "build": "rimraf dist/mp/common && cross-env NODE_ENV=production webpack --progress",
+    "lint": "eslint src/**/*.{js,vue} --fix",
+    "format": "prettier --write src/**/*.{js,vue}"
   },
   "author": "",
   "license": "MIT",
@@ -18,10 +20,14 @@
     "babel-loader": "^8.2.5",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.1",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.2.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.6.1",
     "mp-webpack-plugin": "^1.6.1",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "terser-webpack-plugin": "^5.3.3",
     "vue-loader": "^17.0.0",
