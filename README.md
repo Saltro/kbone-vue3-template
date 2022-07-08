@@ -17,7 +17,8 @@
 ## TODO
 
 - [x] 增加 ESLint, Prettier 支持
-- [ ] 增加 commitlint, commitizen 支持
+- [x] 增加 commitlint 支持
+- [x] 增加 lint-staged 支持
 
 ## License
 
